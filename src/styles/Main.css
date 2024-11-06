@@ -1,0 +1,246 @@
+/* Section Hero avec texte et boutons */
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-family: Coolvetica, sans-serif ;
+
+  }
+  
+  .hero-text {
+    margin-bottom: 20px;
+  }
+  
+  .hero-text h1 {
+    font-size: 4.5rem;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+  }
+
+  .hero-text h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    font-weight: normal;
+  }
+  
+  .hero button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    
+    border: none;
+    background-color: rgba(30, 30, 30, 1);
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+    border-radius: 30px;
+    margin-bottom: 50px;
+
+    
+  }
+  
+  .hero button:hover {
+    background-color: white;
+    color: black;
+  }
+
+
+  /* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+  
+  /* Présentation entreprise */
+  .about-company {
+    display: flex;
+    align-items:  center;
+    padding: 50px;
+    gap: 20px;
+  }
+
+  .aboutP{
+    /* text-align: left; Aligner tout le texte à gauche */
+    font-size: large;
+
+  }
+  
+  .about-company img {
+    width: 50%;
+    border-radius: 10px;
+    filter: brightness(90%);  
+  }
+  
+  .about-company div {
+    margin-left: 50px;
+    width: 45%;
+  }
+  
+  .about-company h2 {
+    font-size: 2rem;
+  }
+  
+  .about-company p {
+    line-height: 1.6;
+    color: #555;
+  }
+
+.about-company p strong {
+  font-weight: bold;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+  
+/* Services */
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Ajoute un écart uniforme entre les cartes */
+  padding: 50px;
+  background-color: #f1f1f1;
+  font-family: Coolvetica, sans-serif ;
+
+}
+
+.service {
+  text-align: center;
+  border: 2px solid rgba(200, 200, 200, 0.8);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  width: 300px; /* Taille fixe pour assurer l'uniformité */
+  height: 490px; /* Taille fixe de la carte pour s'aligner avec l'image */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+
+/* Conteneur de l'image avec une taille fixe */
+.image-container {
+  width: 100%;        /* Occupe toute la largeur de la carte */
+  height: 490px;      /* Hauteur fixe pour l'uniformité */
+  overflow: hidden;   /* Cache les débordements pour les images plus grandes */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px; /* Espace sous l'image */
+}
+
+.image-container img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover; /* Recadrage de l'image pour remplir le conteneur */
+  transition: opacity 0.3s ease;
+}
+
+
+.service h3 {
+  font-size: 22px;
+  font-weight: lighter;
+  text-transform: none;  
+  margin: 15px 0 15px 0;
+}
+
+/* Masque le texte et le bouton par défaut */
+.service p,
+.service button {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+  z-index: 1; /* Mettre le texte et le bouton au-dessus de l'image */
+}
+
+.service:hover img {
+  opacity: 0.3; /* Réduire l'opacité de l'image au survol */
+}
+
+.service:hover p,
+.service:hover button {
+  opacity: 1; /* Afficher le texte et le bouton */
+}
+
+.service p {
+  color: #777;
+  width: 80%;
+  margin: 0 auto 20px;
+}
+
+.service button {
+  padding: 10px 20px;
+  background-color: rgba(30, 30, 30, 1);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.service button:hover {
+  background-color: white;
+  color: black;  
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+  /* Qui sommes-nous ? */
+  .about-founders {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+  }
+  
+  .about-founders img {
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  .about-founders div {
+    width: 50%;
+  }
+  
+  .about-founders h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-founders p {
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* Section Contact */
+  .contact {
+    background-color: #1d72b8;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    line-height: 1.6;
+  }
+  

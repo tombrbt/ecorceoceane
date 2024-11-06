@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    font-family: Coolvetica, sans-serif ;
+  }
+  
+  .logo img {
+    height: 70px;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    /* font-weight: bold; */
+    font-size: 25px;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
+  .social-icons a:hover {
+    color: #1d72b8; /* Couleur de hover pour les icônes */
+  }
+  
+  ul{
+
+    padding-left: 0px;
+
+}
