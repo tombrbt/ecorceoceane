@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ecorceoceane/static/css/main.1ac35233.css",
+    "main.js": "/ecorceoceane/static/js/main.9f9b3fcd.js",
+    "static/js/453.ed1676b6.chunk.js": "/ecorceoceane/static/js/453.ed1676b6.chunk.js",
+    "static/media/maisonPres2.jpg": "/ecorceoceane/static/media/maisonPres2.6bd35b06b93f3e64f39c.jpg",
+    "static/media/lot-de-2-bodies-bebe-garcon-disney-tic-tac.avif": "/ecorceoceane/static/media/lot-de-2-bodies-bebe-garcon-disney-tic-tac.0dbbfbf81022a3940d00.avif",
+    "static/media/logov3.png": "/ecorceoceane/static/media/logov3.8842c7a6e5e2b6780a88.png",
+    "static/media/bgCab.jpg": "/ecorceoceane/static/media/bgCab.deafff476a0367b10db9.jpg",
+    "static/media/Capture_dâ__eÌ_cran_2024-09-30_aÌ__16.25.47-transformed.png": "/ecorceoceane/static/media/Capture_dâ__eÌ_cran_2024-09-30_aÌ__16.25.47-transformed.9720c12f291eb995e8ec.png",
+    "static/media/forfaittoutinclus.jpeg": "/ecorceoceane/static/media/forfaittoutinclus.bccf32440ea8762a5b29.jpeg",
+    "static/media/forfaitsurmesure.jpeg": "/ecorceoceane/static/media/forfaitsurmesure.5eba8977eed75401568c.jpeg",
+    "static/media/forfaitpersonalise.jpeg": "/ecorceoceane/static/media/forfaitpersonalise.ed80626e29473c2e4f49.jpeg",
+    "index.html": "/ecorceoceane/index.html",
+    "main.1ac35233.css.map": "/ecorceoceane/static/css/main.1ac35233.css.map",
+    "main.9f9b3fcd.js.map": "/ecorceoceane/static/js/main.9f9b3fcd.js.map",
+    "453.ed1676b6.chunk.js.map": "/ecorceoceane/static/js/453.ed1676b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ac35233.css",
+    "static/js/main.9f9b3fcd.js"
+  ]
+}
