@@ -5,7 +5,7 @@ import entrepriseImage from '../assets/img/maisonPres2.jpg'; // Image de présen
 import intMaison from '../assets/img/forfaittoutinclus.jpeg'; // Image de présentation
 import intMaison2 from '../assets/img/forfaitpersonalise.jpeg'; // Image de présentation
 import intMaison3 from '../assets/img/forfaitsurmesure.jpeg'; // Image de présentation
-import founderImage from '../assets/img/lot-de-2-bodies-bebe-garcon-disney-tic-tac.avif'; // Image des fondatrices
+import founderImage from '../assets/img/tictac.jpg'; // Image des fondatrices
 
 const Main = () => {
   return (
