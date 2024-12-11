@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/ecorceoceane/static/css/main.57bea5e9.css",
-    "main.js": "/ecorceoceane/static/js/main.e27cd5fc.js",
+    "main.css": "/ecorceoceane/static/css/main.b5c9293f.css",
+    "main.js": "/ecorceoceane/static/js/main.d85eb2c5.js",
     "static/js/453.ed1676b6.chunk.js": "/ecorceoceane/static/js/453.ed1676b6.chunk.js",
     "static/media/maisonPres2.jpg": "/ecorceoceane/static/media/maisonPres2.6bd35b06b93f3e64f39c.jpg",
-    "static/media/tictac.jpg": "/ecorceoceane/static/media/tictac.b0da78e4e21e85d96562.jpg",
-    "static/media/logo couleur ss titre.png": "/ecorceoceane/static/media/logo couleur ss titre.575ef6aa53e3b21a2d64.png",
+    "static/media/who.png": "/ecorceoceane/static/media/who.0aa3c43803f17d030bed.png",
     "static/media/bgCab.jpg": "/ecorceoceane/static/media/bgCab.deafff476a0367b10db9.jpg",
-    "static/media/Capture_dâ__eÌ_cran_2024-09-30_aÌ__16.25.47-transformed.png": "/ecorceoceane/static/media/Capture_dâ__eÌ_cran_2024-09-30_aÌ__16.25.47-transformed.9720c12f291eb995e8ec.png",
     "static/media/forfaittoutinclus.jpeg": "/ecorceoceane/static/media/forfaittoutinclus.bccf32440ea8762a5b29.jpeg",
     "static/media/forfaitsurmesure.jpeg": "/ecorceoceane/static/media/forfaitsurmesure.5eba8977eed75401568c.jpeg",
     "static/media/forfaitpersonalise.jpeg": "/ecorceoceane/static/media/forfaitpersonalise.ed80626e29473c2e4f49.jpeg",
+    "static/media/logo principal.png": "/ecorceoceane/static/media/logo principal.19dd34bc0ed24685f99d.png",
     "index.html": "/ecorceoceane/index.html",
-    "main.57bea5e9.css.map": "/ecorceoceane/static/css/main.57bea5e9.css.map",
-    "main.e27cd5fc.js.map": "/ecorceoceane/static/js/main.e27cd5fc.js.map",
+    "main.b5c9293f.css.map": "/ecorceoceane/static/css/main.b5c9293f.css.map",
+    "main.d85eb2c5.js.map": "/ecorceoceane/static/js/main.d85eb2c5.js.map",
     "453.ed1676b6.chunk.js.map": "/ecorceoceane/static/js/453.ed1676b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57bea5e9.css",
-    "static/js/main.e27cd5fc.js"
+    "static/css/main.b5c9293f.css",
+    "static/js/main.d85eb2c5.js"
   ]
 }
