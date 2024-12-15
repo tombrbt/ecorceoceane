@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Header.css'; // N'oublie pas de styliser
-import logo from '../assets/img/logov3.png';
+import logo from '../assets/img/logo/logo principal.png';
 import { FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa';
 
 const Header = () => {
@@ -12,8 +12,8 @@ const Header = () => {
       <nav className="nav-menu">
         <ul>
           <li><a href="#accueil">Accueil</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#a-propos">À Propos</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#apropos">À Propos</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>

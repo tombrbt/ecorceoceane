@@ -5,15 +5,17 @@ import entrepriseImage from '../assets/img/maisonPres2.jpg'; // Image de présen
 import intMaison from '../assets/img/forfaittoutinclus.jpeg'; // Image de présentation
 import intMaison2 from '../assets/img/forfaitpersonalise.jpeg'; // Image de présentation
 import intMaison3 from '../assets/img/forfaitsurmesure.jpeg'; // Image de présentation
-import founderImage from '../assets/img/tictac.jpg'; // Image des fondatrices
+import founderImage from '../assets/img/who.png'; // Image des fondatrices
+import logo from '../assets/img/logo/logo principal.png';
 
 const Main = () => {
   return (
     <main>
-      <section className="hero" style={{ backgroundImage: `url(${bgImage})` }}>
+      <section className="hero" style={{ backgroundImage: `url(${bgImage}) ` }}>
         <div className="hero-text">
-          <h1>ÉCORCE OCÉANE</h1>
-          <h2>CONCIERGERIE SUR LE BASSIN D’ARCACHON</h2>
+          {/* <h1>ÉCORCE OCÉANE</h1> */}
+          <img src={logo} alt="Dunes & Océan logo" height="250"/>
+          {/* <h2>CONCIERGERIE SUR LE BASSIN D’ARCACHON</h2> */}
         </div>
         <button>Prendre rendez-vous</button>
       </section>
@@ -21,7 +23,7 @@ const Main = () => {
       <section className="about-company">
         <img src={entrepriseImage} alt="Présentation de l'entreprise" />
         <div className="about-text">
-          <h2>Présentation de l'entreprise</h2>
+          <h2>Présentation d'Écorce Océane</h2>
           <p className="aboutP">
           <i><strong>Écorce Océane</strong></i> supervise vos locations de vacances et séjours de courte durée au Cap Ferret et Bassin d’Arcachon.
             Notre conciergerie haut de gamme vous propose un service complet pour rentabiliser votre bien et assurer un séjour exceptionnel à vos voyageurs.<br/><br/>
@@ -37,53 +39,105 @@ const Main = () => {
           </div>
       </section>
 
-      
-      <section className="services">
+      <section id="service" className="servicess">
+        <h2 className="services-title">Nos offres de services</h2>
+        <div className="services">
           <div className="service">
             <div className="service-content">
-            <h3>FORFAIT TOUT INCLUS</h3>
+              <h3>FORFAIT TOUT INCLUS</h3>
               <div className="image-container">
-                <img src={intMaison} alt="Forfait tout inclus" /> {/* Image avant le titre */}
+                <img src={intMaison} alt="Forfait tout inclus" />
               </div>
-              <p>Louez votre bien en toute sérénité, nous gérons tout de A à Z.</p>
+              <p>Il n’est jamais simple de gérer un bien à distance et cela peut parfois créer des moments de stress. « Est-ce que la villa n’a pas été abimée par la dernière tempête ? Comment l’électricien va-t-il récupérer les clés ? Allons-nous retrouver le jardin en friche au printemps ? L’alarme s’est déclenchée mais nous ne pouvons pas nous rendre sur place » etc..
+
+Chez Dune Conciergerie, nous avons mis en place deux forfaits couvrant les services essentiels pour l’entretien et la sécurité de votre propriété.</p>
               <button>Découvrir</button>
             </div>
           </div>
           <div className="service">
             <div className="service-content">
-            <h3>SERVICES EXTRAS</h3>
+              <h3>SERVICES EXTRAS</h3>
               <div className="image-container">
-                <img src={intMaison2} alt="Forfait personnalisé + extras" /> {/* Image avant le titre */}
+                <img src={intMaison2} alt="Forfait personnalisé + extras" />
               </div>
-              <p>Besoin seulement de certains de nos services ? Ce forfait est fait pour vous.</p>
+              <p>Il n’est jamais simple de gérer un bien à distance et cela peut parfois créer des moments de stress. « Est-ce que la villa n’a pas été abimée par la dernière tempête ? Comment l’électricien va-t-il récupérer les clés ? Allons-nous retrouver le jardin en friche au printemps ? L’alarme s’est déclenchée mais nous ne pouvons pas nous rendre sur place » etc..
+
+Chez Dune Conciergerie, nous avons mis en place deux forfaits couvrant les services essentiels pour l’entretien et la sécurité de votre propriété</p>
               <button>Découvrir</button>
             </div>
           </div>
           <div className="service">
             <div className="service-content">
-            <h3>FORFAIT SUR MESURE</h3>
+              <h3>FORFAIT SUR MESURE</h3>
               <div className="image-container">
-                <img src={intMaison3} alt="Forfait sur-mesure" /> {/* Image avant le titre */}
+                <img src={intMaison3} alt="Forfait sur-mesure" />
               </div>
-              <p>Un forfait sur mesure adapté à vos besoins.</p>
+              <p>Et si nous allions plus loin dans le service haut de gamme ? Un sapin livré pour célébrer les fêtes de fin d’année, une maison aérée et chauffée à votre arrivée, des fleurs qui embaument la maison, le frigo est plein et vous n’avez plus qu’à profiter de vos proches.
+              </p>
               <button>Découvrir</button>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
 
-      <section className="about-founders">
+
+      <section id="apropos" className="about-founders">
         <div>
           <h2>Qui sommes-nous ?</h2>
-          <p>...texte ici...</p>
+          <p>
+          <i><strong>Virginie</strong></i>, passionnée et profondément attachée à sa région, a décidé de se lancer dans un projet qui lui tient à cœur : 
+          <strong> la conciergerie sur le Bassin d’Arcachon.</strong><br/><br/>
+
+          Avec son amour pour ce territoire unique et son sens du service, elle a créé une offre personnalisée pour répondre aux besoins des propriétaires et des voyageurs.<br/><br/>
+          
+          <strong>Sa mission ? </strong>
+          Faciliter la gestion locative, offrir un accueil chaleureux et valoriser le patrimoine local tout en respectant l’environnement.
+         <br/><br/>
+
+         <i><strong>Chez Virginie</strong></i>, chaque service repose sur des valeurs clés :<br/> confiance, réactivité et excellence.
+          Que vous soyez propriétaire ou locataire,<br/> elle s’engage à transformer votre expérience en un moment inoubliable.   <br/><br/>
+            </p>
         </div>
         <img src={founderImage} alt="Fondatrices" />
       </section>
       
-      <section className="contact">
+      <section id='contact' className="contact">
         <h2>Contactez-nous</h2>
-        <p>...formulaire ou texte ici...</p>
+        <form className="contact-form">
+          <div className="form-row">
+            <div className="form-group">
+              <label htmlFor="nom">Nom</label>
+              <input type="text" id="nom" name="nom" placeholder="Votre nom" required />
+            </div>
+            <div className="form-group">
+              <label htmlFor="prenom">Prénom</label>
+              <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required />
+            </div>
+          </div>
+          <div className="form-row">
+            <div className="form-group">
+              <label htmlFor="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Votre email" required />
+            </div>
+            <div className="form-group">
+              <label htmlFor="telephone">Téléphone</label>
+              <input type="tel" id="telephone" name="telephone" placeholder="Votre téléphone" required/>
+            </div>
+          </div>
+          <div className="form-group">
+            <label htmlFor="sujet">Sujet</label>
+            <input type="text" id="sujet" name="sujet" placeholder="Sujet du message" required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="message">Message</label>
+            <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+          </div>
+          <button type="submit" className="submit-button">Envoyer</button>
+        </form>
       </section>
+
+
     </main>
   );
 };

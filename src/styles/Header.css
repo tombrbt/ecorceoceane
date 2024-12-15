@@ -2,13 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
-    padding: 10px;
+    /* background-color: #ffffff; */
+    background-color: rgb(244, 220, 186);
+    padding: 10px 20px 10px 20px;    ;
     font-family: Coolvetica, sans-serif ;
   }
   
   .logo img {
     height: 70px;
+    padding-right: 25px;
+
   }
   
   .nav-menu ul {
@@ -32,12 +35,12 @@
   
   .social-icons a {
     color: #333;
-    font-size: 24px;
+    font-size: 25px;
     margin-left: 10px;
   }
   
   .social-icons a:hover {
-    color: #1d72b8; /* Couleur de hover pour les icônes */
+    color: #CA623E;; /* Couleur de hover pour les icônes */
   }
   
   ul{
