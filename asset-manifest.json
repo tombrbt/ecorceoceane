@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecorceoceane/static/css/main.3b11e067.css",
-    "main.js": "/ecorceoceane/static/js/main.2daa15ea.js",
+    "main.js": "/ecorceoceane/static/js/main.3c100311.js",
     "static/js/453.ed1676b6.chunk.js": "/ecorceoceane/static/js/453.ed1676b6.chunk.js",
     "static/media/maisonPres2.jpg": "/ecorceoceane/static/media/maisonPres2.6bd35b06b93f3e64f39c.jpg",
     "static/media/who.png": "/ecorceoceane/static/media/who.0aa3c43803f17d030bed.png",
@@ -12,11 +12,11 @@
     "static/media/logo principal.png": "/ecorceoceane/static/media/logo principal.19dd34bc0ed24685f99d.png",
     "index.html": "/ecorceoceane/index.html",
     "main.3b11e067.css.map": "/ecorceoceane/static/css/main.3b11e067.css.map",
-    "main.2daa15ea.js.map": "/ecorceoceane/static/js/main.2daa15ea.js.map",
+    "main.3c100311.js.map": "/ecorceoceane/static/js/main.3c100311.js.map",
     "453.ed1676b6.chunk.js.map": "/ecorceoceane/static/js/453.ed1676b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b11e067.css",
-    "static/js/main.2daa15ea.js"
+    "static/js/main.3c100311.js"
   ]
 }
