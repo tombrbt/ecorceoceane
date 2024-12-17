@@ -17,7 +17,7 @@ const Main = () => {
           <img src={logo} alt="Dunes & Océan logo" height="250"/>
           {/* <h2>CONCIERGERIE SUR LE BASSIN D’ARCACHON</h2> */}
         </div>
-        <button>Prendrezz rendez-vous</button>
+        <button>Prendre rendez-vous</button>
       </section>
       
       <section className="about-company">

@@ -1,5 +1,5 @@
 .footer {
-    background-color: rgba(0, 0, 0, 0.82);
+  background-color: rgb(244, 220, 186);
     color: black;
     padding: 40px;
     text-align: center;
@@ -16,7 +16,7 @@
   
   .footer-logo p {
     font-size: 1.2rem;
-    color: white;
+    color: #CA623E; 
   }
   
   .footer-contact {
@@ -25,11 +25,11 @@
   
   .footer-contact p {
     margin: 5px 0;
-    color: white;
+    color: #CA623E; 
   }
   
   .footer-links a {
-    color: white;
+    color: #CA623E; 
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;

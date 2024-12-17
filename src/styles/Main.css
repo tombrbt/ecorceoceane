@@ -149,8 +149,6 @@
   justify-content: flex-start;
   border-radius: 5%;
   background-color: rgb(244, 220, 186);
-
-
 }
 
 
@@ -234,6 +232,8 @@
     align-items:  center;
     padding: 50px;
     gap: 20px;
+    background-color: rgb(244, 220, 186);
+
   }
   
   .about-founders img {
@@ -265,9 +265,10 @@
 
   }
   
+  
   /* Section Contact */
 .contact {
-  background-color: #f1f1f1;
+  background-color: #95CCBC;
   text-align: center;
   padding: 50px;
 }
@@ -325,8 +326,8 @@
 
 .submit-button {
   padding: 10px 20px;
-  background-color: black;
-  color: white;
+  background-color: #CA623E;
+  color: rgb(244, 220, 186);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -334,8 +335,8 @@
 }
 
 .submit-button:hover {
-  background-color: #CA623E;;
-  color: white;
+  background-color: rgb(244, 220, 186);
+  color: #CA623E; 
 }
 
   
