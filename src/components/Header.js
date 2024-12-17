@@ -12,7 +12,7 @@ const Header = () => {
       <nav className="nav-menu">
         <ul>
           <li><a href="#accueil">Accueil</a></li>
-          <li><a href="#service">Services</a></li>
+          <li><a href="#service">Tarifs</a></li>
           <li><a href="#apropos">À Propos</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
