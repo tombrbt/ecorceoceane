@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Main.css'; // Ajoute des styles
-import bgImage from '../assets/img/bgCab.jpg'; // Image de fond
+import bgImage from '../assets/img/bg2.png'; // Image de fond
 import entrepriseImage from '../assets/img/maisonPres2.jpg'; // Image de présentation
 import intMaison from '../assets/img/forfaittoutinclus.jpeg'; // Image de présentation
 import intMaison2 from '../assets/img/forfaitpersonalise.jpeg'; // Image de présentation
@@ -14,7 +14,7 @@ const Main = () => {
       <section className="hero" style={{ backgroundImage: `url(${bgImage}) ` }}>
         <div className="hero-text">
           {/* <h1>ÉCORCE OCÉANE</h1> */}
-          <img src={logo} alt="Dunes & Océan logo" height="250"/>
+          <img src={logo} alt="Dunes & Océan logo" height="300"/>
           {/* <h2>CONCIERGERIE SUR LE BASSIN D’ARCACHON</h2> */}
         </div>
         <button>Prendre rendez-vous</button>
@@ -48,9 +48,7 @@ const Main = () => {
               <div className="image-container">
                 <img src={intMaison} alt="Forfait tout inclus" />
               </div>
-              <p>Il n’est jamais simple de gérer un bien à distance et cela peut parfois créer des moments de stress. « Est-ce que la villa n’a pas été abimée par la dernière tempête ? Comment l’électricien va-t-il récupérer les clés ? Allons-nous retrouver le jardin en friche au printemps ? L’alarme s’est déclenchée mais nous ne pouvons pas nous rendre sur place » etc..
-
-Chez Dune Conciergerie, nous avons mis en place deux forfaits couvrant les services essentiels pour l’entretien et la sécurité de votre propriété.</p>
+              <p>Un forfait avec tout ce dont vous avez besoin, du nettoyage à la remise de clé, Écorce Océane s'occupe de tout.</p>
               <button>Découvrir</button>
             </div>
           </div>
@@ -60,9 +58,7 @@ Chez Dune Conciergerie, nous avons mis en place deux forfaits couvrant les servi
               <div className="image-container">
                 <img src={intMaison2} alt="Forfait personnalisé + extras" />
               </div>
-              <p>Il n’est jamais simple de gérer un bien à distance et cela peut parfois créer des moments de stress. « Est-ce que la villa n’a pas été abimée par la dernière tempête ? Comment l’électricien va-t-il récupérer les clés ? Allons-nous retrouver le jardin en friche au printemps ? L’alarme s’est déclenchée mais nous ne pouvons pas nous rendre sur place » etc..
-
-Chez Dune Conciergerie, nous avons mis en place deux forfaits couvrant les services essentiels pour l’entretien et la sécurité de votre propriété</p>
+              <p>Besoin de services supplémentaires ? Ce forfait est fait pour vous.</p>
               <button>Découvrir</button>
             </div>
           </div>
@@ -72,8 +68,7 @@ Chez Dune Conciergerie, nous avons mis en place deux forfaits couvrant les servi
               <div className="image-container">
                 <img src={intMaison3} alt="Forfait sur-mesure" />
               </div>
-              <p>Et si nous allions plus loin dans le service haut de gamme ? Un sapin livré pour célébrer les fêtes de fin d’année, une maison aérée et chauffée à votre arrivée, des fleurs qui embaument la maison, le frigo est plein et vous n’avez plus qu’à profiter de vos proches.
-              </p>
+              <p>Un forfait sur mesure adapté à vos besoins.</p>
               <button>Découvrir</button>
             </div>
           </div>
