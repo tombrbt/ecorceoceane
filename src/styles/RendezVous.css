@@ -1,0 +1,16 @@
+
+  .rendezvous-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+    padding: 20px;
+    background-color:  rgba(244, 220, 186, 0.427);
+  }
+  
+  .calendly-inline-widget {
+    border: none; /* Supprime les bordures par défaut */
+  }
+  
+  
+  

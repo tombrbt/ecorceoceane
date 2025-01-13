@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Main.css'; // Ajoute des styles
 import bgImage from '../assets/img/bg2.png'; // Image de fond
 import entrepriseImage from '../assets/img/maisonPres2.jpg'; // Image de présentation
@@ -17,7 +18,9 @@ const Main = () => {
           <img src={logo} alt="Dunes & Océan logo" height="300"/>
           {/* <h2>CONCIERGERIE SUR LE BASSIN D’ARCACHON</h2> */}
         </div>
-        <button>Prendre rendez-vous</button>
+        <Link to="/rendez-vous">
+          <button>Prendre rendez-vous</button>
+        </Link>
       </section>
       
       <section className="about-company">
@@ -25,16 +28,15 @@ const Main = () => {
         <div className="about-text">
           <h2>Présentation d'Écorce Océane</h2>
           <p className="aboutP">
-          <i><strong>Écorce Océane</strong></i> supervise vos locations de vacances et séjours de courte durée au Cap Ferret et Bassin d’Arcachon.
-            Notre conciergerie haut de gamme vous propose un service complet pour rentabiliser votre bien et assurer un séjour exceptionnel à vos voyageurs.<br/><br/>
+          Après 20 années d’expérience dans le commerce, un domaine où la satisfaction client est au cœur de tout, 
+          j’ai décidé de me lancer dans une activité qui me passionne vraiment et qui reflète mes valeurs : 
+          simplifier la vie des gens, apporter des solutions personnalisées, et créer des expériences uniques.
+          <br/><br/>
 
-            <strong>Nos objectifs :</strong> vous soulager des contraintes liées à l’entretien d’un bien à distance, optimiser votre rentabilité et votre fiscalité, gérer vos locations en toute sécurité avec un panel de services haut de gamme.
-            Confiez votre bien en toute confiance et sérénité, il sera entre de bonnes mains.<br/><br/>
+          Ces années de commerce, combinées à mes nombreux voyages, m’ont permis de développer une solide expertise en organisation, 
+          en écoute et polyvalence. Aujourd’hui, j’ai envie de mettre ces compétences à votre service. <br/><br/>
 
-            <strong>Propriétaires ?</strong> Profitez de nos conseils personnalisés afin d’améliorer votre rendement locatif et déléguez les tâches qui incombent à la location saisonnière.<br/><br/>
-
-            <strong>Voyageurs ?</strong> Nous tenons à rendre votre séjour inoubliable grâce à une offre de services sur-mesure. Laissez place au repos et à la tranquillité. 
-            Nous proposons un panel d’activités varié établi avec notre réseau de partenaires locaux.<br/><br/>
+          Je suis à votre disposition pour répondre à toutes vos demandes, n’hésitez pas à me contacter !<br/><br/>
           </p>
           </div>
       </section>
@@ -48,17 +50,27 @@ const Main = () => {
               <div className="image-container">
                 <img src={intMaison} alt="Forfait tout inclus" />
               </div>
-              <p>Un forfait avec tout ce dont vous avez besoin, du nettoyage à la remise de clé, Écorce Océane s'occupe de tout.</p>
+              <p>Un forfait avec tout ce dont vous avez besoin : <br/> 
+              - Présentation du logement <br/>
+              - Contrôle du logement <br/>
+              - Nettoyage <br/>
+              - Remise de clé <br/><br/>
+              Écorce Océane s'occupe de tout.</p>
               <button>Découvrir</button>
             </div>
           </div>
           <div className="service">
             <div className="service-content">
-              <h3>SERVICES EXTRAS</h3>
+              <h3>FORFAIT GARDIENNAGE</h3>
               <div className="image-container">
                 <img src={intMaison2} alt="Forfait personnalisé + extras" />
               </div>
-              <p>Besoin de services supplémentaires ? Ce forfait est fait pour vous.</p>
+              <p>Un forfait pour assurer la protection de votre logement et ses biens : <br/> <br/>
+              - Vigilance extérieur et intérieur <br/>
+              - Relevé de courriers et compteur<br/>
+              - Aération des pièces <br/>
+              - Compte rendu par mail ou SMS <br/><br/>
+              Et bien d'autres possibilités.</p>
               <button>Découvrir</button>
             </div>
           </div>

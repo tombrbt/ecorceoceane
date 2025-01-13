@@ -5,6 +5,7 @@
     background-color: rgb(244, 220, 186);
     padding: 10px 20px 10px 20px;    ;
     font-family: Coolvetica, sans-serif ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.313);
   }
   
   .logo img {

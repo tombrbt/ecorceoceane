@@ -14,9 +14,9 @@ const Footer = () => {
         <p>ecorceoceane@contact.fr</p>
       </div>
       <div className="footer-links">
-        <a href="#plan-du-site">Plan du site</a>
-        <a href="#mentions-legales">Mentions Légales</a>
-      </div>
+      <a href="/pdf/Mentions Légales.pdf" target="_blank" rel="noopener noreferrer">Mentions Légales</a>
+        <a href="/pdf/CGS.pdf" target="_blank" rel="noopener noreferrer">CGS</a>
+        </div>
     </footer>
   );
 };
