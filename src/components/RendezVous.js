@@ -16,13 +16,16 @@ const RendezVous = () => {
   }, []);
 
   return (
+    <section id="rdvid" className="rdv">
+        <h2 className="rdv-title">Vous souhaitez prendre rendez-vous ?</h2>
     <div className="rendezvous-container">
       <div
         className="calendly-inline-widget"
-        data-url="https://calendly.com/tombirembaut/appel-de-presentation-questions"
+        data-url="https://calendly.com/ecorce-oceane/appel-de-presentation"
         style={{ minWidth: '600px', height: '700px' }}
       ></div>
     </div>
+    </section>
   );
 };
 
