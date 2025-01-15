@@ -4,7 +4,8 @@
     padding: 40px;
     text-align: center;
     border-top: 1px solid rgba(0, 0, 0, 0.313);
-
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.313);
   }
   
   .footer-logo {
@@ -35,6 +36,8 @@
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.313);
   }
   
   .footer-links a:hover {

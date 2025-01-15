@@ -56,7 +56,9 @@ const Main = () => {
               - Nettoyage <br/>
               - Remise de clé <br/><br/>
               Écorce Océane s'occupe de tout.</p>
-              <button>Découvrir</button>
+              <Link to="/prestations">
+                <button>Découvrir</button>
+              </Link>
             </div>
           </div>
           <div className="service">
@@ -71,7 +73,9 @@ const Main = () => {
               - Aération des pièces <br/>
               - Compte rendu par mail ou SMS <br/><br/>
               Et bien d'autres possibilités.</p>
-              <button>Découvrir</button>
+              <Link to="/prestations">
+                <button>Découvrir</button>
+              </Link>
             </div>
           </div>
           <div className="service">
@@ -80,8 +84,12 @@ const Main = () => {
               <div className="image-container">
                 <img src={intMaison3} alt="Forfait sur-mesure" />
               </div>
-              <p>Un forfait sur mesure adapté à vos besoins.</p>
-              <button>Découvrir</button>
+              <p>Profitez d’un service  entièrement personnalisé pour répondre à vos besoins spécifiques. <br/>
+                Nous adaptons nos prestations à vos attentes pour garantir votre tranquillité et celle de vos invités. <br/><br/>
+                Contactez-nous pour créer une offre unique, faite pour vous !</p>
+              <Link to="/rendez-vous">
+                <button>Nous contacter</button>
+              </Link>
             </div>
           </div>
         </div>
