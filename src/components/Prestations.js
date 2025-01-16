@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import "../styles/Prestations.css"; // Ajoutez des styles spécifiques à la page
 import tarifsImg from '../assets/img/TARIFS PRESTATIONS.jpg'; // Image de présentation
-import tarifsGImg from '../assets/img/TARIFS PRESTATIONS.jpg'; // Image de présentation
+import tarifsGImg from '../assets/img/TARIFS GARDIENNAGE.jpg'; // Image de présentation
 
 
 const RendezVous = () => {
