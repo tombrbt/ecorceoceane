@@ -1,52 +1,84 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(244, 220, 186);
-    padding: 10px 20px 10px 20px;    ;
-    font-family: Coolvetica, sans-serif ;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.313);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(244, 220, 186);
+  padding: 10px 20px;
+  font-family: Coolvetica, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.313);
+}
+
+.logo img {
+  height: 50px;
+  padding-right: 25px;
+  padding-left: 10px;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 25px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.social-icons a:hover {
+  color: #CA623E; /* Couleur de hover pour les icônes */
+}
+
+ul {
+  padding-left: 0px;
+}
+
+/* Media Query pour mobile */
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
   }
-  
+
   .logo img {
-    height: 50px;
-    padding-right: 25px;
-    padding-left: 10px;
-
-
+      height: 40px; /* Réduire la taille du logo */
+      margin-bottom: 10px;
   }
-  
+
   .nav-menu ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      width: 100%;
   }
-  
+
   .nav-menu ul li a {
-    text-decoration: none;
-    color: #333;
-    /* font-weight: bold; */
-    font-size: 25px;
+      font-size: 20px; /* Réduire la taille du texte */
   }
-  
+
   .contact-info {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+      margin-top: 10px;
   }
-  
+
   .social-icons a {
-    color: #333;
-    font-size: 25px;
-    margin-left: 10px;
+      font-size: 20px; /* Réduire la taille des icônes */
+      margin-left: 0; /* Supprimer la marge */
   }
-  
-  .social-icons a:hover {
-    color: #CA623E;; /* Couleur de hover pour les icônes */
-  }
-  
-  ul{
-
-    padding-left: 0px;
-
 }

@@ -7,11 +7,11 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-logo">
         <img src={logo} alt="Bassin Conciergerie" />
-        <p>Conciergerie - Cap Ferret & Bassin d'Arcachon</p>
+        <p>Conciergerie - Bassin d'Arcachon</p>
       </div>
       <div className="footer-contact">
         <p>07 68 27 84 46</p>
-        <p>ecorceoceane@contact.fr</p>
+        <p>ecorceoceane@gmail.com</p>
       </div>
       <div className="footer-links">
       <a href="/pdf/Mentions Légales.pdf" target="_blank" rel="noopener noreferrer">Mentions Légales</a>
