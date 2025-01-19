@@ -11,7 +11,7 @@ const Footer = () => {
       </div>
       <div className="footer-contact">
         <p>07 68 27 84 46</p>
-        <p>ecorceoceane@gmail.com</p>
+        <p>ecorce.oceane@gmail.com</p>
       </div>
       <div className="footer-links">
       <a href="/pdf/Mentions Légales.pdf" target="_blank" rel="noopener noreferrer">Mentions Légales</a>

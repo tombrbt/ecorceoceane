@@ -119,7 +119,7 @@ const Main = () => {
       
       <section id='contact' className="contact">
         <h2>Contactez-nous</h2>
-        <form className="contact-form">
+        <form className="contact-form" method="POST" action="https://formspree.io/f/xkgglyoa">
           <div className="form-row">
             <div className="form-group">
               <label htmlFor="nom">Nom</label>
