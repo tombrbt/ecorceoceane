@@ -371,3 +371,83 @@
 }
 
 
+/* Adaptations pour mobile */
+@media screen and (max-width: 768px) {
+  /* Section Hero */
+  .hero {
+    height: auto; /* Ajuste la hauteur */
+    padding: 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem; /* Réduit la taille du titre */
+  }
+
+  .hero-text h2 {
+    font-size: 1.2rem; /* Réduit la taille du sous-titre */
+  }
+
+  .hero button {
+    margin: 10px 0;
+    font-size: 16px; /* Ajuste la taille des boutons */
+  }
+
+  /* Section Présentation Entreprise */
+  .about-company {
+    flex-direction: column; /* Passe les éléments en colonne */
+    padding: 20px;
+    text-align: center;
+  }
+
+  .about-company img {
+    width: 100%; /* Image prend toute la largeur */
+    margin-bottom: 20px;
+  }
+
+  .about-company div {
+    width: 100%; /* Texte prend toute la largeur */
+    margin: 0;
+  }
+
+  /* Section Services */
+  .services {
+    flex-direction: column; /* Cartes empilées */
+    align-items: center;
+  }
+
+  .service {
+    width: 150%; /* Réduit la largeur des cartes */
+    margin-bottom: 20px;
+  }
+
+  /* Section Qui sommes-nous ? */
+  .about-founders {
+    flex-direction: column; /* Empile les éléments */
+    padding: 20px;
+    text-align: center;
+  }
+
+  .about-founders img {
+    width: 100%; /* Image prend toute la largeur */
+    height: auto; /* Ajuste la hauteur proportionnellement */
+    margin-bottom: 20px;
+  }
+
+  .about-founders div {
+    width: 100%; /* Texte prend toute la largeur */
+  }
+
+  /* Section Contact */
+  .contact-form {
+    padding: 20px;
+  }
+
+  .form-row {
+    flex-direction: column; /* Champs empilés */
+  }
+
+  .submit-button {
+    margin: 0 auto; /* Centre le bouton */
+    width: 100%; /* Occupe toute la largeur */
+  }
+}

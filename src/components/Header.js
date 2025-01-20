@@ -1,15 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Header.css'; // N'oublie pas de styliser
 import logo from '../assets/img/logo/logo principal.png';
 import { FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa';
 
+
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
+    
     <header className="header">
       <div className="logo">
         <img src={logo} alt="Dunes & Océan logo" />
       </div>
       <nav className="nav-menu">
+        <div className="hamburger" onClick={toggleMenu}>
+        <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <ul>
           <li><a href="#accueil">Accueil</a></li>
           <li><a href="#service">Services</a></li>
@@ -27,5 +40,6 @@ const Header = () => {
     </header>
   );
 };
+
 
 export default Header;
