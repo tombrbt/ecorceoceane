@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Main.css'; // Ajoute des styles
 import bgImage from '../assets/img/bg2.png'; // Image de fond
-import entrepriseImage from '../assets/img/maisonPres2.jpg'; // Image de présentation
+import entrepriseImage from '../assets/img/maisonPres.jpg'; // Image de présentation
 import intMaison from '../assets/img/service1.jpg'; // Image de présentation
 import intMaison2 from '../assets/img/service2.jpg'; // Image de présentation
 import intMaison3 from '../assets/img/service3.jpg'; // Image de présentation
