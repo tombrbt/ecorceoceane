@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/ecorceoceane/static/css/main.3b11e067.css",
-    "main.js": "/ecorceoceane/static/js/main.2daa15ea.js",
-    "static/js/453.ed1676b6.chunk.js": "/ecorceoceane/static/js/453.ed1676b6.chunk.js",
-    "static/media/maisonPres2.jpg": "/ecorceoceane/static/media/maisonPres2.6bd35b06b93f3e64f39c.jpg",
-    "static/media/who.png": "/ecorceoceane/static/media/who.0aa3c43803f17d030bed.png",
-    "static/media/bgCab.jpg": "/ecorceoceane/static/media/bgCab.deafff476a0367b10db9.jpg",
-    "static/media/forfaittoutinclus.jpeg": "/ecorceoceane/static/media/forfaittoutinclus.bccf32440ea8762a5b29.jpeg",
-    "static/media/forfaitsurmesure.jpeg": "/ecorceoceane/static/media/forfaitsurmesure.5eba8977eed75401568c.jpeg",
-    "static/media/forfaitpersonalise.jpeg": "/ecorceoceane/static/media/forfaitpersonalise.ed80626e29473c2e4f49.jpeg",
-    "static/media/logo principal.png": "/ecorceoceane/static/media/logo principal.19dd34bc0ed24685f99d.png",
-    "index.html": "/ecorceoceane/index.html",
-    "main.3b11e067.css.map": "/ecorceoceane/static/css/main.3b11e067.css.map",
-    "main.2daa15ea.js.map": "/ecorceoceane/static/js/main.2daa15ea.js.map",
-    "453.ed1676b6.chunk.js.map": "/ecorceoceane/static/js/453.ed1676b6.chunk.js.map"
+    "main.css": "/static/css/main.6ac333e4.css",
+    "main.js": "/static/js/main.3e9d48b3.js",
+    "static/js/453.ed1676b6.chunk.js": "/static/js/453.ed1676b6.chunk.js",
+    "static/media/service2.jpg": "/static/media/service2.cc4e93bc0c992aa5ee97.jpg",
+    "static/media/service1.jpg": "/static/media/service1.c76ee55e4f9d7bf46950.jpg",
+    "static/media/service3.jpg": "/static/media/service3.afe1dd334124eb5a8b6f.jpg",
+    "static/media/maisonPres.jpg": "/static/media/maisonPres.d19afe3cd787d68b9b54.jpg",
+    "static/media/who.png": "/static/media/who.0aa3c43803f17d030bed.png",
+    "static/media/TARIFS GARDIENNAGE.jpg": "/static/media/TARIFS GARDIENNAGE.d355002d358bfcccc5b4.jpg",
+    "static/media/TARIFS PRESTATIONS.jpg": "/static/media/TARIFS PRESTATIONS.44201adad80a0199c48e.jpg",
+    "static/media/bg2.png": "/static/media/bg2.57174ad8d2ade528d402.png",
+    "static/media/logo principal.png": "/static/media/logo principal.19dd34bc0ed24685f99d.png",
+    "index.html": "/index.html",
+    "main.6ac333e4.css.map": "/static/css/main.6ac333e4.css.map",
+    "main.3e9d48b3.js.map": "/static/js/main.3e9d48b3.js.map",
+    "453.ed1676b6.chunk.js.map": "/static/js/453.ed1676b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b11e067.css",
-    "static/js/main.2daa15ea.js"
+    "static/css/main.6ac333e4.css",
+    "static/js/main.3e9d48b3.js"
   ]
 }
